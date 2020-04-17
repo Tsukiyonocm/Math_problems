@@ -1,10 +1,10 @@
 Version 0.0.01:
-    I have created a very simple version of a math problems game for my son to play. Pretty much right now it can only do addition unless I go in the code and hard code the game for subtraction. The game runs simply:
+I have created a very simple version of a math problems game for my son to play. Pretty much right now it can only do addition unless I go in the code and hard code the game for subtraction. The game runs simply:
 
-    1. Upon running the file two numbers are randomly generated. 
-    2. Using these, the answer is also created to be used as a comparison.
-    3. I create the math problem using the math_problem function.
-    4. The function requires user input for the answer. If the answer is wrong, it tells the user to try again. If it is correct, the user is rewarded with a simple congratulatory statement. Thus ending the game requiring the user to once again start the function to play again. 
+1. Upon running the file two numbers are randomly generated. 
+2. Using these, the answer is also created to be used as a comparison.
+3. I create the math problem using the math_problem function.
+4. The function requires user input for the answer. If the answer is wrong, it tells the user to try again. If it is correct, the user is rewarded with a simple congratulatory statement. Thus ending the game requiring the user to once again start the function to play again. 
 
 
 Future Updates:
