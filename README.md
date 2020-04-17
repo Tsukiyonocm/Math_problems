@@ -1,4 +1,5 @@
-Version 0.0.01:
+## Version 0.0.01:
+
 I have created a very simple version of a math problems game for my son to play. Pretty much right now it can only do addition unless I go in the code and hard code the game for subtraction. The game runs simply:
 
 1. Upon running the file two numbers are randomly generated. 
@@ -7,7 +8,7 @@ I have created a very simple version of a math problems game for my son to play.
 4. The function requires user input for the answer. If the answer is wrong, it tells the user to try again. If it is correct, the user is rewarded with a simple congratulatory statement. Thus ending the game requiring the user to once again start the function to play again. 
 
 
-Future Updates:
+### Future Updates:
 1. I would like for this to be able to do simple subtraction also. This will be a bit more involved since right now I would need to make sure the highest number is always the first number used in the equation. I believe this could be solved somewhat simply by just comparing the numbers using the max() function and using that as the first variable.
 
 2. Would like to create an option for the user to continue playing the game. Right now you are required to rerun the function from the command prompt in order to play again. It should be fairly straight forward to create a statement to reroll the numbers and generate a new question. 
