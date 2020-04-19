@@ -10,11 +10,11 @@ def start_game():
     if start == "yes":
         addition_problem()
     elif start == "no":
+        print("Thanks for playing!")
         exit()
     else:
         print("Please choose a valid response")
         start_game()
-
 
 
 def addition_problem():

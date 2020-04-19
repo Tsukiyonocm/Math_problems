@@ -1,3 +1,8 @@
+## Version 0.0.02
+
+I created an updated version where it asks if you want to play or not. I also changed the name of the math function to addition_problem so that I can easier differentiate between various types of math in the future. Next I will be looking into allowing the problems to continue until the user decides to quit.
+
+
 ## Version 0.0.01:
 
 I have created a very simple version of a math problems game for my son to play. Pretty much right now it can only do addition unless I go in the code and hard code the game for subtraction. The game runs simply:
