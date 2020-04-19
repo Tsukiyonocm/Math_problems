@@ -20,10 +20,10 @@ I have created a very simple version of a math problems game for my son to play.
 ### Future Updates:
 1. I would like for this to be able to do simple subtraction also. This will be a bit more involved since right now I would need to make sure the highest number is always the first number used in the equation. I believe this could be solved somewhat simply by just comparing the numbers using the max() function and using that as the first variable.
 
-~~ 2. Would like to create an option for the user to continue playing the game. Right now you are required to rerun the function from the command prompt in order to play again. It should be fairly straight forward to create a statement to reroll the numbers and generate a new question. 
+~~2. Would like to create an option for the user to continue playing the game. Right now you are required to rerun the function from the command prompt in order to play again. It should be fairly straight forward to create a statement to reroll the numbers and generate a new question. 
     Steps needed for this:
         - The random numbers would likely need to be created inside of a function itself. This way, if the user agrees to play again, the function is called which would create a new number. 
-        - Would need new logic for the math_problem function which might necessitate an additional function to break it up a bit. ~~
+        - Would need new logic for the math_problem function which might necessitate an additional function to break it up a bit.~~
 
 3. Would like to keep track of the score on how many you got right vs how many you got wrong. With this, you could generate a grade. This would be a simple score of how many right vs how many you got wrong. This could be expanded in the future to maybe include a more accurate assessment perhaps. Could maybe use the datetime feature (or similar functionality to track the amount of time the user is playing also).
 
