@@ -84,6 +84,6 @@ Lastly, if the user guessed wrong on the answer, the system says to please try a
 
 ### Current Problems up to Version 0.0.04:
 
-1. chosen_game function has an issue if the user choses not to respond with an addition or subtraction option. Right now it just asks for a answer then closes out.
+chosen_game function has an issue if the user choses not to respond with an addition or subtraction option. Right now it just asks for a answer then closes out.
 
 Possible solution is maybe a "while" loop. Will need to look into this further.
