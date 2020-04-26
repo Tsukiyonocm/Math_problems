@@ -1,3 +1,7 @@
+## Version 0.0.04
+
+Updated now to include subtraction. Also reorganized some of the functions to better accommodate new features without being to verbose in each function by itself.
+
 ## Version 0.0.03
 
 I updated the code so that you no longer need to reload the file to do addition problems. I am unsure if its the best solution, but it works for the time being anyway. 
@@ -60,7 +64,7 @@ Lastly, if the user guessed wrong on the answer, the system says to please try a
 
 
 ### Future Updates:
-1. I would like for this to be able to do simple subtraction also. This will be a bit more involved since right now I would need to make sure the highest number is always the first number used in the equation. I believe this could be solved somewhat simply by just comparing the numbers using the max() function and using that as the first variable.
+~~1. I would like for this to be able to do simple subtraction also. This will be a bit more involved since right now I would need to make sure the highest number is always the first number used in the equation. I believe this could be solved somewhat simply by just comparing the numbers using the max() function and using that as the first variable.
 
 ~~2. Would like to create an option for the user to continue playing the game. Right now you are required to rerun the function from the command prompt in order to play again. It should be fairly straight forward to create a statement to reroll the numbers and generate a new question. 
     Steps needed for this:
@@ -70,3 +74,10 @@ Lastly, if the user guessed wrong on the answer, the system says to please try a
 3. Would like to keep track of the score on how many you got right vs how many you got wrong. With this, you could generate a grade. This would be a simple score of how many right vs how many you got wrong. This could be expanded in the future to maybe include a more accurate assessment perhaps. Could maybe use the datetime feature (or similar functionality to track the amount of time the user is playing also).
 
 4. I would like to have some sort of a gui to display this outside of the command prompt perhaps? I am unsure how this could be implemented right now so this will require a good bit of research to see if its possible and how.
+
+
+### Current Problems up to Version 0.0.04:
+
+1. chosen_game function has an issue if the user choses not to respond with an addition or subtraction option. Right now it just asks for a answer then closes out.
+
+Possible solution is maybe a "while" loop. Will need to look into this further.
