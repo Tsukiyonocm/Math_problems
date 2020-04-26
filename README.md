@@ -21,7 +21,7 @@ I have created a very simple version of a math problems game for my son to play.
 4. The function requires user input for the answer. If the answer is wrong, it tells the user to try again. If it is correct, the user is rewarded with a simple congratulatory statement. Thus ending the game requiring the user to once again start the function to play again. 
 
 
-### Function Explanation
+## Function Explanation
 
 <b> start_game </b> - The function starts by asking the player if they want to play. If yes, we pass the input value as an argument into the chosen_game function.
 
@@ -29,7 +29,7 @@ If the start variable is no, the game closes out with a simple message.
 
 Lastly, if the player enters an option other than "yes" or "no", the game prompts the user to choose a valid response and asks the questions again. 
 
-<b>. chosen_game </b> - when the user picks "yes" as an option, that is passed to chosen_game in order to start. Here the user is asked if they would like to do "Subtraction or Addition" problems.
+<b> chosen_game </b> - when the user picks "yes" as an option, that is passed to chosen_game in order to start. Here the user is asked if they would like to do "Subtraction or Addition" problems.
 
 Regardless of choice, once the user makes a decision the game runs 3 more functions. The first is gen_ran_num which creates the problem variables, generate_answer which does as it says. Lastly, its runs the function of the problem of choice, either addition_problem or subtraction_problem, depending on your choice earlier.
 
@@ -62,7 +62,7 @@ If no, it thanks the user for playing and quits out of the game.
 Lastly, if the user guessed wrong on the answer, the system says to please try again. Then it reposts the question to the command line asking the user to chose an answer.
 
 
-### Future Updates:
+## Future Updates:
 ~~1. I would like for this to be able to do simple subtraction also. This will be a bit more involved since right now I would need to make sure the highest number is always the first number used in the equation. I believe this could be solved somewhat simply by just comparing the numbers using the max() function and using that as the first variable.
 
 ~~2. Would like to create an option for the user to continue playing the game. Right now you are required to rerun the function from the command prompt in order to play again. It should be fairly straight forward to create a statement to reroll the numbers and generate a new question. 
