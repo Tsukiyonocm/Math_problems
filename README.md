@@ -23,11 +23,13 @@ I have created a very simple version of a math problems game for my son to play.
 
 ## Function Explanation
 
-> <b> start_game </b> - The function starts by ?asking the player if they want to play. If yes, we pass the input value as an argument into the chosen_game function.
+---
+<b> start_game </b> - The function starts by ?asking the player if they want to play. If yes, we pass the input value as an argument into the chosen_game function.
 
->If the start variable is no, the game closes out with a simple message.
+If the start variable is no, the game closes out with a simple message.
 
->Lastly, if the player enters an option other than "yes" or "no", the game prompts the user to choose a valid response and asks the questions again. 
+Lastly, if the player enters an option other than "yes" or "no", the game prompts the user to choose a valid response and asks the questions again. 
+---
 
 <b> chosen_game </b> - when the user picks "yes" as an option, that is passed to chosen_game in order to start. Here the user is asked if they would like to do "Subtraction or Addition" problems.
 
