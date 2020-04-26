@@ -23,29 +23,28 @@ I have created a very simple version of a math problems game for my son to play.
 
 ### Function Explanation
 
-1. start_game - The function starts by asking the player if they want to play. If yes, we pass the input value as an argument into the chosen_game function.
+<b> start_game </b> - The function starts by asking the player if they want to play. If yes, we pass the input value as an argument into the chosen_game function.
 
 If the start variable is no, the game closes out with a simple message.
 
 Lastly, if the player enters an option other than "yes" or "no", the game prompts the user to choose a valid response and asks the questions again. 
 
-
-2. chosen_game - when the user picks "yes" as an option, that is passed to chosen_game in order to start. Here the user is asked if they would like to do "Subtraction or Addition" problems.
+<b>. chosen_game </b> - when the user picks "yes" as an option, that is passed to chosen_game in order to start. Here the user is asked if they would like to do "Subtraction or Addition" problems.
 
 Regardless of choice, once the user makes a decision the game runs 3 more functions. The first is gen_ran_num which creates the problem variables, generate_answer which does as it says. Lastly, its runs the function of the problem of choice, either addition_problem or subtraction_problem, depending on your choice earlier.
 
 
-3. gen_ran_num - This function generates a random number between 0 an 10 for the global variables, num_a and num_b.
+<b> gen_ran_num </b> - This function generates a random number between 0 an 10 for the global variables, num_a and num_b.
 
 
-4. generate_answer - this function generates the answer depending on whether its addition or subtraction. 
+<b> generate_answer </b> - this function generates the answer depending on whether its addition or subtraction. 
 
 If addition, it sets the global variable answer to num_a + num_b.
 
 If subtraction its a bit more complicated. We first have to figure out the largest number between num_a and num_b, then subtract the lowest number between num_a and num_b. This is then set to the global variable answer.
 
 
-5. addition_problem - Using an f-string, the game prompts the user with the question: num_a + num_b = ?. Here the user inputs their answer to the question. If its correct, the game gives a congratulatory message and asks if you would like to play again. 
+<b> addition_problem </b> - Using an f-string, the game prompts the user with the question: num_a + num_b = ?. Here the user inputs their answer to the question. If its correct, the game gives a congratulatory message and asks if you would like to play again. 
 
 If yes at this point, it passes the start variable into the chosen_game function and we go back to choose another addition or subtraction problem.
 
@@ -54,7 +53,7 @@ If no, it thanks the user for playing and quits out of the game.
 Lastly, if the user guessed wrong on the answer, the system says to please try again. Then it reposts the question to the command line asking the user to chose an answer.
 
 
-6. subtraction_problem - Using an f-string, the game prompts the user with the question: max(num_a, num_b) - min(num_a, num_b) = ?. Here the user inputs their answer to the question. If its correct, the game gives a congratulatory message and asks if you would like to play again.
+<b> subtraction_problem </b> - Using an f-string, the game prompts the user with the question: max(num_a, num_b) - min(num_a, num_b) = ?. Here the user inputs their answer to the question. If its correct, the game gives a congratulatory message and asks if you would like to play again.
 
 If yes at this point, it passes the start variable into the chosen_game function and we go back to choose another addition or subtraction problem.
 
