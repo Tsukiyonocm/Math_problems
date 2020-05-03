@@ -8,14 +8,15 @@ choice = ""
 def start_game():
     global choice
     start = input("Would you like to play a game? yes or no? -> ").lower()
-    if start == "yes":
-        chosen_game(start)    
-    elif start == "no":
-        print("Thanks for playing!")
-        exit()
-    else:
-        print("Please choose a valid response")
-        start_game()
+    while start != "yes" or start != "no":
+        if start == "yes":
+            chosen_game(start)    
+        elif start == "no":
+            print("Thanks for playing!")
+            exit()
+        else:
+            print("Please choose a valid response")
+            start = input("Would you like to play a game? yes or no? -> ")
 
 
 def gen_ran_num():
